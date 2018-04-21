@@ -373,15 +373,15 @@
 		background-size:100% 420px
 	}
 	25%,45%{
-		background:url(../img/轮播/11.jpg);
+		background:url(../img/nt/11.jpg);
 		background-size:100% 420px
 	}
 	50%,70%{
-		background: url(../img/轮播/12.jpg);
+		background: url(../img/nt/12.jpg);
 		background-size:100% 420px
 	}
 	75%,100%{
-		background: url(../img/轮播/13.jpg);
+		background: url(../img/nt/13.jpg);
 		background-size:100% 420px
 	}
 }

@@ -490,11 +490,6 @@ img.zoom-img:hover {
 /*--footer--*/
 .footer-top{
 	min-height:300px;
-    background:url(../img/psbHOMNOD0G.jpg) no-repeat,
-               url(../img/psbQ8XYOEFA.jpg) 280px no-repeat,
-               url(../img/psbQYW7W087.jpg) 580px no-repeat,
-               url(../img/psbWRGTKIEP.jpg)  880px no-repeat,
-               url(../img/psbWG7FFEFC.jpg)  1150px no-repeat;
 	width:100%;
 	display:block;
 	background-size:contain;
@@ -504,6 +499,53 @@ img.zoom-img:hover {
 	color: #fff;
     font-size: 1.3em;
     line-height:2em;
+}
+@keyframes xuanzhuan{
+    0%,1%{
+        transform: rotate(0deg)
+    }
+    1%,50%{
+        transform: rotate(25deg)
+    }
+    50%,100%{
+        transform: rotate(-25deg)
+    }
+}
+@keyframes beng{
+    0%,25%{
+        transform: translate(25px,25px)
+    }
+    25%,50%{
+        transform: translate(50px,50px)
+    }
+    50%,75%{
+        transform: translate(-50px,-50px)
+    }
+    75%,100%{
+        transform: translate(-25px,-25px)
+    }
+}
+@keyframes bianhuan{
+    0%,25%{
+        color: blue;
+        border: 1px solid blue;
+        border-radius: 5px;
+    }
+    25%,50%{
+        color:#40E0D0;
+        border:1px solid #40E0D0;
+        border-radius: 2px;
+    }
+    50%,75%{
+        color: #6B8E23;
+        border: 1px solid #6B8E23;
+        border-radius:5px
+    }
+    75%,100%{
+        color: #D2691E;
+        border: 1px solid #D2691E;
+        border-radius: 2px
+    }
 }
 .mail input[type="text"], .mail input[type="submit"] {
     width: 75%;

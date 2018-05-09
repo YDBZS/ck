@@ -33,7 +33,72 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		 new WOW().init();
 	</script>
 <!--//end-animate-->
-
+	<style>
+.container{
+width: 800px;
+height: 500px;
+margin: 0 auto;
+border: 1px solid black;
+-webkit-perspective: 1200px;
+    }
+    .stage{
+        width: 800px;
+        height: 500px;
+        margin: 0 auto;
+        position: relative;
+        transform-style: preserve-3d;
+        animation: xuanzhuan 5s  infinite linear
+    }
+    @keyframes xuanzhuan {
+        0%{
+            transform: rotatey(0deg) ;
+            border:3px solid red;
+        }
+        25%{
+            transform: rotatey(90deg) ;
+            border:3px  solid aqua;
+        }
+        50%{
+            transform: rotatey(180deg) ;
+            border: 3px solid blue;
+        }
+        75%{
+            transform: rotatey(270deg) ;
+            border: 3px solid  yellow ;
+        }
+        100%{
+            transform: rotatey(360deg);
+            border: 3px solid  black;
+        }
+     }
+    .stage>div{
+        position: absolute;
+        top: 140px;
+        left: 300px;
+    }
+    .stage>div>img{
+        width: 200px;
+        height: 200px;
+    }
+    .stage div:nth-child(1){
+         transform: rotatey(0deg) translatez(200px);
+     }
+     .stage div:nth-child(2){
+         transform: rotatey(60deg) translatez(200px);
+     }
+     .stage div:nth-child(3){
+         transform: rotatey(120deg) translatez(200px);
+     }
+     .stage div:nth-child(4){
+         transform: rotatey(180deg) translatez(200px);
+     }
+     .stage div:nth-child(5){
+         transform: rotatey(240deg) translatez(200px);
+     }
+     .stage div:nth-child(6){
+         transform: rotatey(300deg) translatez(200px);
+     }
+    </style>
 </head>
  <body >
 	 <audio src="video/FLOWER_ROAD-BIGBANG.flac" autoplay="autoplay" loop="loop"></audio>
@@ -472,6 +537,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="clearfix"> </div>
 		</div>
 	</div>
+	<div class="container">
+        <div class="stage">
+            <div>
+                <img src="new/QQ图片20180509193000.jpg" alt="">
+            </div>
+            <div>
+                <img src="new/QQ图片20180509193016.jpg" alt="">
+            </div>
+            <div>
+               <img src="new/QQ图片20180509193023.jpg" alt="">
+            </div>
+            <div>
+                <img src="new/QQ图片20180509193029.jpg" alt="">
+            </div>
+            <div>
+                 <img src="new/QQ图片20180509193034.jpg" alt="">
+            </div>
+            <div>
+                  <img src="new/QQ图片20180509193039.jpg" alt="">
+            </div>
+        </div>
+    </div>
 	<div class="footer-bottom wow fadeInDown animated" data-wow-delay=".5s">
 		<div class="container">
 			<div class=" footer-left">
